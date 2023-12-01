@@ -75,7 +75,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 119
+  controlID: 36
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 308.80005
     height: 722.8
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -112,7 +112,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -121,14 +121,14 @@ MonoBehaviour:
     y: 426.4
     width: 1028
     height: 296.4
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
   - {fileID: 16}
   - {fileID: 17}
-  m_Selected: 2
+  m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
@@ -309,7 +309,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 199.2
     y: 500
-    width: 786.8
+    width: 1026
     height: 275.4
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -332,7 +332,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -340,31 +340,30 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "D:\\jp\\TecMonterreyCSF\\Modelaci\xF3n de sistemas multiagentes
-    con gr\xE1ficas computacionales\\RetoTrafico\\AgentsVisualization\\TrafficVisualization"
+  m_LastProjectPath: C:\Tec\RetoTrafico\RetoTrafico\AgentsVisualization\TrafficVisualization
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 116.600006}
-    m_SelectedIDs: 9a4d0000
-    m_LastClickedID: 19866
-    m_ExpandedIDs: 000000008e4d0000a04d000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 50060000
+    m_LastClickedID: 1616
+    m_ExpandedIDs: 00000000f0050000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Prefabs
-      m_OriginalName: Prefabs
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 19866
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -378,7 +377,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000008e4d0000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -430,7 +429,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 71.600006}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 246
@@ -518,9 +517,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 9a4c0000
-      m_LastClickedID: 19610
-      m_ExpandedIDs: f078feffeefaffff
+      m_SelectedIDs: 06640000
+      m_LastClickedID: 0
+      m_ExpandedIDs: d286ffffd687ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -937,11 +936,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.50700283, y: 0.4682904, z: -0.38911843, w: -0.6101806}
     speed: 2
-    m_Value: {x: -0.5069822, y: 0.46827134, z: -0.3891026, w: -0.6101558}
+    m_Value: {x: -0.50700283, y: 0.4682904, z: -0.38911843, w: -0.6101806}
   m_Size:
-    m_Target: 16.252016
+    m_Target: 16.012758
     speed: 2
-    m_Value: 16.252016
+    m_Value: 15.323214
   m_Ortho:
     m_Target: 0
     speed: 2
